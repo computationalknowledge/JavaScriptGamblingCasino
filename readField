@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
+            
+            // Displaying the value
+            alert(inputVal);
+        }
+    </script>	
+</head>
+<body>
+    <input type="text" placeholder="Type something..." id="myInput">
+    <button type="button" onclick="getInputValue();">Get Value</button>
+</body>
+</html>
